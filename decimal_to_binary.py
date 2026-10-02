@@ -9,4 +9,4 @@ def to_binary(decimal):
         decimal //= 2
 
     return binario
-#danie nigger
+
