@@ -1,7 +1,7 @@
 class Product:
-    def __init__(self, name:str, price:float):
+    def __init__(self, name: str, price: float):
         self.name = name
         self.price = price
-Products = Product(self.name = name
-        self.price = price)
-print(Products)
+
+    def __str__(self):
+        return f'{self.name} - ${self.price}'
